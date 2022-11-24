@@ -1,0 +1,60 @@
+.main {
+  padding: 15px 0;
+  background-color: blue;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .list ul a {
+  text-decoration: none;
+  color: white;
+}
+.header .list {
+  display: flex;
+  align-items: center;
+}
+
+.header .list .father-ul {
+  display: flex;
+  margin-top: 20px;
+  list-style: none;
+}
+li {
+  margin-right: 25px;
+}
+.tmdb {
+  font-size: 30px;
+  text-decoration: none;
+  color: green;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile a {
+  margin: 0 20px;
+  color: white;
+}
+.profile .changer {
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.profile .login {
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.movie {
+  display: none;
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  padding: 15px;
+}
+.movie li {
+  padding: 5px 0;
+}
+.movies:hover .movie{
+  display: block;
+}
